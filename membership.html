@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Website - Membership Page</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="membership.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<header>
+  <h1>Fitness Website</h1>
+  <link rel="stylesheet" type="text/css" href="fitness.css">
+
+ </header>
+ <nav>
+  <a href="fitness.html">Home</a>
+  <a href="about us.html">About us</a>
+  <a href="fitness clases.html">Fitness classess</a>
+  <a href="membership.html">Membership</a>
+  <a href="contact.html ">Contact</a>
+ </nav>
+  <header>
+    <!-- Navigation bar -->
+  </header>
+
+  <main>
+    <h1>Membership</h1>
+    <p>Join our fitness community and enjoy exclusive benefits!</p>
+
+    <!-- Membership pricing plans -->
+    <div class="pricing-plans">
+      <div class="plan">
+        <h2>Basic</h2>
+        <p class="price">$9.99/month</p>
+        <ul>
+          <li>Access to gym facilities</li>
+          <li>Group fitness classes</li>
+          <li>Personalized training sessions</li>
+        </ul>
+        <button onclick="purchaseMembership('basic')">Get Started</button>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <p class="price">$19.99/month</p>
+        <ul>
+          <li>Access to gym facilities</li>
+          <li>Group fitness classes</li>
+          <li>Personalized training sessions</li>
+          <li>Access to premium fitness equipment</li>
+          <li>Priority booking for classes</li>
+        </ul>
+        <button onclick="purchaseMembership('premium')">Get Started</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+  <p>&copy; 2023 Fitness Website. All rights reserved.</p>
+ </footer>
+</section>
+</body>
+</html>
+<style>
+body{
+background:url(image1.jpg);
+background-size:cover;
+}
+header {
+   background-color: #1d1818;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   font-size: 2em;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+  }
+  nav {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   font-size: 1.2em;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+  }
+.footer {
+   background-color: #222;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   font-size: 1.2em;
+  }
